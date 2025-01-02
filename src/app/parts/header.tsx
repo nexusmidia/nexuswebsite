@@ -21,7 +21,9 @@ export default function Header() {
         <header className="text-xl bg-white w-screen w-full w-screen shadow-[0px_21px_19px_-7px_rgba(0,_0,_0,_0.1)]">
             <nav className="flex justify-between items-center mx-auto px-2 xl:px-10 lg:px-4 relative">
                 <div>
-                    <Image src="/img/logo_nexus_hd.png" alt="Nexus Midia Logo" className="w-18 min-w-16" width={100} height={88}></Image>
+                    <a href="#">
+                        <Image src="/img/logo_nexus_hd.png" alt="Nexus Midia Logo" className="w-18 min-w-16" width={100} height={88}></Image>
+                    </a>
                 </div>
                 <div className={`absolute bg-white lg:min-h-fit left-0 w-full flex px-5 py-4 items-center lg:static lg:w-auto lg:relative lg:top-0 lg:min-h-[100%] shadow-[0px_21px_19px_-7px_rgba(0,_0,_0,_0.1)] lg:shadow-none ${open ? 'top-[100%]' : 'top-[-200vh]'} `}>
                     <ul className="flex flex-col justify-center flex-1 items-center gap-8 text-xl lg:flex-row lg:items-center lg:gap-[2vw]">
