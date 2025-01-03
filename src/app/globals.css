@@ -21,3 +21,35 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  max-width: 1152px;
+  max-height: 312px;
+  margin-left: 20px;
+}
+
+/* @media (min-width: 540px) {
+  .embla__slide {
+    flex: 0 0 700px;
+  }
+}
+
+@media (min-width: 768px) {
+  .embla__slide {
+    flex: 0 0 840px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .embla__slide {
+    flex: 0 0 1152px;
+  }
+} */

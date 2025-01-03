@@ -9,16 +9,15 @@ import { FaAward } from "react-icons/fa6";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { TbUpload } from "react-icons/tb";
 
-
 export default function Header() {
     const [open, setOpen] = useState(false);
 
-    const changeState = (event: React.MouseEvent<HTMLElement>) => {
+    const changeState = () => {
         setOpen(open => !open)
     }
 
     return (
-        <header className="text-xl bg-white w-screen w-full w-screen shadow-[0px_21px_19px_-7px_rgba(0,_0,_0,_0.1)]">
+        <header className="text-xl bg-white w-screen w-full w-screen shadow-[0px_21px_19px_-7px_rgba(0,_0,_0,_0.1)] z-10">
             <nav className="flex justify-between items-center mx-auto px-2 xl:px-10 lg:px-4 relative">
                 <div>
                     <a href="#">
