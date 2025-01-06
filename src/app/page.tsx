@@ -6,7 +6,7 @@ import MainContent from "./parts/mainContent";
 
 export default function Home() {
   return (
-    <div className="flex flex-col h-full">
+    <div className="">
       <Header></Header>
       <MainContent></MainContent>
       <Footer></Footer>
